@@ -1,0 +1,164 @@
+/* Global Styles */
+
+.logo{
+	font-size: xx-large;
+	font-family: 'Arial Narrow Bold', sans-serif;
+	justify-self: left;
+	color: black;
+	padding: 10px;
+}
+
+a{
+	color: black;
+	transition: .3s;
+}
+
+a:hover{
+	color: #8a7777;
+}
+a:hover .button__icon{
+    transform: translateX(.25rem);
+}
+.nav_menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 50px 0 0;
+}
+ul{
+	list-style-type:none;
+}
+.logo{
+	align-self: flex-start;
+}
+
+.nav_menu .nav_m{
+    align-self: flex-end;
+}
+
+.plant_names{
+	list-style-type: disc;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url("plantbg.jpeg") no-repeat center center fixed;
+	background-size:cover;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	padding: 10px;
+}
+
+header {
+	background-color: rgba(242, 242, 242, 0.8);
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	box-shadow: -2px 0 4px hsla(152,24%,15%);
+}
+
+h1, h2 {
+	color: #444;
+	margin: 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	opacity: 0.9;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 10px 0 0;
+	padding: 0;
+	display: flex;
+}
+
+.menu_list{
+	display: flex;
+    flex-direction: row;
+}
+
+.nav_menu{
+	display: flex;
+}
+
+.nav_m{
+	align-items:flex-end;
+}
+.names{
+	display: inline-flex;
+}
+
+.about{
+	display:inline-flex;
+}
+
+.home__img{
+    width: 300px;
+}
+
+.plant_names{
+	display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+footer {
+	background-color: #444;
+	color: #f2f2f2;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Page-Specific Styles */
+
+main h2:first-child {
+	margin-top: 0;
+}
+
+main p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+main h2, main p {
+	max-width: 700px;
+}
+
+main h2 {
+	color: #5f9ea0;
+	margin-bottom: 10px;
+}
+
+.home__social-links{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: .25rem;
+}
+
+.home__social-link{
+    font-size: 1rem;
+    color: var(--first-color);
+    transition: .3s;
+}
+
+.home__social-link:hover{                    /*Shifts soial handle symbols little right when mouse hovers*/
+    transform: translateX(.25rem);
+}
+
+footer p {
+	margin: 0;
+}

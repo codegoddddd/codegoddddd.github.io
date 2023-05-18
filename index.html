@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medicinal Plants Informative Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="nav_menu">
+		<div><a href="index.html" class="logo"><i class="ri-leaf-fill"></i>Medex</a></div>
+		<br>
+		<nav class="nav_m">
+			<ul class="menu_list">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#home">About</a></li>
+				<li><a href="#med_plants">Medicinal Plants</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="about" id="home">
+		<img src="plant_.png" class="home__img">
+		<section>
+			<br><br><br>
+			<h2>About <i class="ri-arrow-right-down-line button_icon"></i></h2>
+			<p>This website provides information about the various medicinal plants found in Indonesia, with a particular focus on Gorontalo. The aim is to create awareness about the potential health benefits of these plants and encourage their utilization for disease prevention and healing.</p>
+		</section>
+		</div>
+		
+		<section>
+			<h2 id="med_plants"><br><br>Medicinal Plants</h2>
+			<ul class="plant_names">
+				<li class="names"><a href="chamb.html">Chamberbitter</a></li>
+				<li class="names"><a href="catwhi.html">Cat’s Whiskers</a></li>
+				<li class="names"><a href="temulawak.html">Temulawak (Javanese Ginger)</a></li>
+				<li class="names"><a href="turmeric.html">Turmeric</a></li>
+				<li class="names"><a href="ginger.html">Ginger</a></li>
+				<!--Add more plants here-->
+			</ul>
+			<p>Click on the names of the plants to learn more about their properties, uses, and benefits.</p>
+		</section>
+		<section>
+			<h2 id="contact"><br><br>Contact Us</h2>
+			<div class="home__social-links">
+				<a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+					<i class="ri-facebook-fill"></i>
+				</a>
+				<a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+					<i class="ri-instagram-line"></i>
+				</a>
+				<a href="https://twitter.com/" target="_blank" class="home__social-link">
+					<i class="ri-twitter-fill"></i>
+				</a>
+			</div>
+			<form>
+				<h2><br>Feedback Form:</h2>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="5"></textarea><br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Medicinal Plants Informative Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
